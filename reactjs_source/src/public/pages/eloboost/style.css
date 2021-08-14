@@ -1,0 +1,133 @@
+#tab-text {
+    font-family: 'TWCenWT', sans-serif;
+    color: #eeeded;
+    font-size: 15px;
+    cursor: pointer;
+}
+#tab-text:hover {
+    color: white;
+}
+#combo-label {
+    font-family: 'TWCenWT', sans-serif;
+    color: #eeeded;
+    font-size: 16px;
+}
+#chk-text {
+    /*font-family: 'TWCenWT', sans-serif;*/
+    color: #eeeded;
+    font-size: 16px;
+    cursor: pointer;
+}
+#discount-text {
+    color: #a3a3a3;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+#total-text {
+    color: #eeeded;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey
+}
+
+#progressbar .active {
+    color: green
+}
+
+#progressbar .active-pre {
+    color: #FFC732;
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 33%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+#progressbar #login:before {
+    font-family: FontAwesome;
+    content: "\f13e"
+}
+
+#progressbar #account:before {
+    font-family: FontAwesome;
+    content: "\f007"
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f09d"
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: green
+}
+
+#progressbar li.active-pre:before,
+#progressbar li.active-pre:after {
+    background: #FFC732;
+}
+#elo-boost-payment-container {
+    border: 3px solid #FFC732;
+    border-radius: 6px;
+    box-shadow: 1px 1px 6px 5px #b80d0d9e;
+    padding-bottom: 15px;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#payment-panel {
+    font-family: 'TWCenWT', sans-serif;
+    border: 1px solid #FFC732;
+    border-radius: 4px;
+    color: #eeeded;
+    font-size: 16px;
+    padding: 30px
+}

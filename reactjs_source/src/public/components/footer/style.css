@@ -1,0 +1,45 @@
+#footer-info-text {
+    color: rgb(221, 220, 220);
+    font-family: 'TWCenWT', sans-serif;
+    line-height: 20px;
+}
+
+#order-button {
+    float: right;
+}
+
+#payment-logo {
+    position: absolute;
+    bottom: 0;
+}
+#order-track-container {
+    background-color: #000;
+    border-radius: 5px;
+    margin: 50px;
+    box-shadow: 1px 0px 6px 2px #FFC732;
+}
+
+#order-track-form {
+    font-family: 'TWCenWT', sans-serif;
+    color: #eeeded;
+}
+
+#order-track-form input:focus {
+    box-shadow: 1px 0px 5px 2px #000;
+}
+
+@media only screen  and (max-width: 992px){ 
+    #order-button {
+        float: none;
+    }
+    #payment-logo {
+        position: relative;
+        text-align: center;
+    }
+    #order-track-container {
+        background-color: #000;
+        border-radius: 5px;
+        margin: 0;
+        box-shadow: 1px 0px 6px 2px #FFC732;
+    }
+}

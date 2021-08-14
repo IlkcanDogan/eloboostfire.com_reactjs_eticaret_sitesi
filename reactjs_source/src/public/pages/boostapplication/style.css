@@ -1,0 +1,14 @@
+#application-title {
+    color: #FFC732;
+    text-shadow: 2px 0px #b80d0d9e;
+    font-size: 40px;
+    line-height: 45px;
+    font-family: 'Tempus Sans', sans-serif;
+}
+
+#application-content {
+    color: rgb(221, 220, 220);
+    font-size: 28px;
+    line-height: 39px;
+    font-family: 'TWCenWT', sans-serif;
+}

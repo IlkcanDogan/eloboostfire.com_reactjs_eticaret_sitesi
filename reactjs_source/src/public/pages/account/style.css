@@ -1,0 +1,149 @@
+#custom-tab-panel {
+    font-family: 'TWCenWT', sans-serif;
+    color: #000;
+    text-align: center;
+    
+}
+#custom-tab-panel div {
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.active-tab {
+    background-color: #FFC732;
+    cursor: pointer;
+}
+.active-tab i {
+    font-size: 25px;
+}
+.normal-tab {
+    color: #eeeded;
+    cursor: pointer;
+}
+.normal-tab i {
+    font-size: 25px;
+}
+.normal-tab:hover {
+    background-color: rgb(43, 43, 43);
+}
+#left-toolbox {
+    background-color: #000;
+    border: 3px solid #FFC732;
+    text-align: center;
+    font-family: 'TWCenWT', sans-serif;
+    color: #eeeded;
+    padding: 25px;
+    box-shadow: 1px 0px 6px 2px #b80d0d9e;
+}
+#welcome-text {
+    font-size: 21px;
+}
+#toolbox-info-text {
+    text-align: left;
+    
+}
+#info-title {
+    font-size: 18px;
+    margin-top: 50px;
+    line-height: 1px;
+}
+#info-content {
+    color: #d6d5d5;
+}
+#profile-edit-container {
+    font-family: 'TWCenWT', sans-serif;
+    color: #eeeded;
+    padding: 25px;
+}
+#profile-edit-container input:focus {
+    box-shadow: 1px 0px 5px 2px rgba(255, 255, 255, 0);
+    outline: none;
+}
+.PhoneInputInput {
+    border: none;
+    color: rgb(118, 118, 118);
+}
+#save-button {
+    float: right;
+}
+#not-found-text {
+    font-family: 'TWCenWT', sans-serif;
+    color: #eeeded;
+    padding: 50px;
+    font-size: 25px;
+}
+#chat-container {
+    font-family: 'TWCenWT', sans-serif;
+    padding-right: 0;
+}
+#chat-container input,button:focus {
+    box-shadow: none;
+    
+}
+#chat-area-title {
+    background-color: rgb(118, 118, 118);
+    color: #eeeded;
+    text-align: center;
+    
+    font-size: 20px;
+    padding: 10px;
+}
+#chat-toolbox {
+   background-color: #e2dddd;
+   padding: 10px;
+}
+#chat-area {
+    height: 315px;
+    background-color: white;
+    overflow-x: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#left-bubble {
+    background-color: #F4F7F9;
+    color: rgb(49, 49, 49);
+    float: left;
+    max-width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#right-bubble {
+    background-color: #8AB8F3;
+    color: rgb(49, 49, 49);
+    float: right;
+    padding: 10px;
+    max-width: 50%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+@media only screen  and (max-width: 992px){ 
+    #custom-tab-panel div {
+        font-size: 17px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .active-tab i {
+        font-size: 20px;
+    }
+    .normal-tab i {
+        font-size: 20px;
+    }
+    #profile-edit-container {
+        font-family: 'TWCenWT', sans-serif;
+        color: #eeeded;
+        padding: 10px;
+        padding-top: 30px;
+    }
+    #save-button {
+        float:none;
+        text-align: center;
+    }
+    #chat-container {
+        padding: 0;
+        padding-top: 20px;
+    }
+}

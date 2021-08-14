@@ -1,0 +1,13 @@
+#mobile-row {
+    display: none;
+}
+
+@media only screen  and (max-width: 992px){ 
+    #desktop-row {
+        display: none;
+    }
+
+    #mobile-row {
+        display: block;
+    }
+}
